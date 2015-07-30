@@ -8,7 +8,7 @@
   font-style: normal; }
 
 .stately {
-  font: normal normal 300px "stately-webfont";
+  font: normal normal 900px "stately-webfont";
   line-height: 100%;
   font-size-adjust: none;
   -webkit-text-rendering: optimizeLegibility;
@@ -20,12 +20,12 @@
   -ms-font-feature-settings: "liga" 1;
   -ms-font-feature-settings: "liga", "dlig";
   overflow: hidden;
-  width: 300px;
+  width: 900px;
   display: block;
   margin: 0 auto;
   padding: 0;
   list-style: none;
-  background: #eeeeee;
+  background: none;
   border-radius: 0; }
   .stately li {
     float: left;
