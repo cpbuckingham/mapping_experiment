@@ -33,6 +33,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
 </head>
 
 <body>
@@ -130,8 +131,19 @@
     </div>
     <!-- /.container -->
 
+    <script>
+    $('li.tx').hover(
+  function() {
+    $(this)
+      .animate({'color': 'red'}, 400);
+  },
+);
+    </script>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
