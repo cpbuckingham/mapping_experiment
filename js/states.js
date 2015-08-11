@@ -1,14 +1,10 @@
 $(document).ready(function () {
+  $("a").click(function(){
+    window.location.reload()  });
 
-  $("navbar-brand").click(function(){
-         $("p").hide();
-     });
-
-  $('#li').hover(
-      function() {
-      	$('#li').css({'color' : 'red'});
-      },
-      function() {
-      	$('#li').css({'color' : 'blue'});
-      }
-  )
+  $( "li" ).click(function() {
+    $( "li" ).each(function() {
+      $( this ).css({'color' : 'teal'});
+    });
+  });
+});
