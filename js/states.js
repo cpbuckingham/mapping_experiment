@@ -1,9 +1,11 @@
 $(document).ready(function () {
   $("a").click(function(){
-    window.location.reload()  });
+    window.location.reload()});
+    alert($('li').length);
 
   $( "li" ).on('click', function() {
-      var state = $(this).first('li').data('state');
+      $(this).data('state');
       $(this).css({'color' : 'teal'});
   });
+
 });
