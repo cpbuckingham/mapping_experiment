@@ -2,9 +2,8 @@ $(document).ready(function () {
   $("a").click(function(){
     window.location.reload()  });
 
-  $( "li" ).click(function() {
-    $( "li" ).each(function() {
-      $( this ).css({'color' : 'teal'});
-    });
+  $( "li" ).on('click', function() {
+      var state = $(this).first('li').data('state');
+      $(this).css({'color' : 'teal'});
   });
 });
