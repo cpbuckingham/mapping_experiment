@@ -17,3 +17,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+#map.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
